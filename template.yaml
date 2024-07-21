@@ -1,0 +1,181 @@
+theme: default # default || dark
+organization: Pixel Genius Labs
+twitter: '@denkivvakame'
+title: 'Academic Project Page Template'
+journal: "AAAA'24"
+resources:
+  paper: https://openreview.net/
+  arxiv: https://arxiv.org
+  code: https://github.com/denkiwakame/academic-project-template
+  video: https://www.youtube.com/embed/onbnb_D1wC8?si=xJczUv716Lt5aO4l&amp;start=1150
+  huggingface: https://huggingface.co/
+description: academic projectpage template that supports markdown and KaTeX
+
+image: https://denkiwakame.github.io/academic-project-template/assets/teaser.png
+url: https://denkiwakame.github.io/academic-project-template
+speakerdeck: # speakerdeck slide ID
+authors:
+  - name: Wakame Denki*
+    affiliation: [1, 2]
+    url: http://denkiwakame.github.io/
+    position: intern
+  - name: Jane Doe
+    affiliation: [1]
+    position: Researcher
+    url: https://thispersondoesnotexist.com/
+  - name: John Smith
+    affiliation: [1]
+    position: Researcher
+    url: https://thispersondoesnotexist.com/
+affiliations:
+  - Pixel Genius Labs
+  - NeuroNauts Academy
+meta:
+  - '*work done while she was interning at Pixel Genius Lab.'
+bibtex: >
+  @article{doe2024superai,
+    author    = {Jane Doe and John Smith},
+    title     = {Unleashing the Power of Super AI: Transforming the Future of Technology},
+    journal   = {Journal of Superintelligent Systems},
+    year      = {2024},
+    volume    = {99},
+    number    = {1},
+    pages     = {1-42},
+    month     = {January},
+    keywords  = {Super AI, Machine Learning, Artificial Intelligence, Technological Innovation},
+    doi       = {10.9999/jsis.2024.001},
+    url       = {https://www.example.com/superai-article},
+    note      = {This paper sets the benchmark for future AI research and applications.}
+  }
+
+teaser: teaser.png
+abstract: |
+  This is a versatile template designed to satisfy your research project page needs, all while harnessing the power of **UIKit** and **React**. Built on the foundations of simplicity and flexibility, this template allows you to focus on expressing your ideas without the hassle of directly handling CSS—thanks to customizable SASS variables.
+  With markdown as your canvas and $\KaTeX$ for precise equations, crafting clear and engaging project page becomes effortless. Whether you're unraveling complex theories or presenting your findings, this template aims to support your scholarly endeavors with grace and ease.
+  *Need to edit HTML directly?* Fear not! In addition to markdown, you can also directly write HTML with ease. Feel empowered to craft your content exactly as you envision it, whether through markdown's simplicity or the precision of HTML.
+
+body:
+  - title: Media examples
+    text: |
+      You can access media files in `src/media/` using `assets/` paths
+
+      <div class="uk-position-relative" uk-slideshow="animation: fade">
+        <div class="uk-slideshow-items">
+          <div>
+            <img src="assets/001.jpg" alt="" uk-cover>
+          </div>
+          <div>
+            <img src="assets/002.jpg" alt="" uk-cover>
+          </div>
+          <div>
+            <img src="assets/003.jpg" alt="" uk-cover>
+          </div>
+        </div>
+        <div class="uk-position-bottom-center uk-position-small">
+          <ul class="uk-thumbnav">
+            <li uk-slideshow-item="0"><a href="#"><img src="assets/001.jpg" width="100" height="67" alt=""></a></li>
+            <li uk-slideshow-item="1"><a href="#"><img src="assets/002.jpg" width="100" height="67" alt=""></a></li>
+            <li uk-slideshow-item="2"><a href="#"><img src="assets/003.jpg" width="100" height="67" alt=""></a></li>
+          </ul>
+        </div>
+      </div>
+
+      Refer to [UIKit Video Components Documentation](https://getuikit.com/docs/video) and [Grid system](https://getuikit.com/docs/grid)
+      <div class="uk-child-width-1-2@m" uk-grid>
+        <div>
+          <video
+            src="https://yootheme.com/site/images/media/yootheme-pro.mp4"
+            loop
+            muted
+            uk-video="autoplay:inview"
+            />
+        </div>
+        <div>
+          <video
+            src="https://yootheme.com/site/images/media/yootheme-pro.mp4"
+            loop
+            muted
+            uk-video="autoplay:inview"
+            />
+        </div>
+      </div>
+  - title: Markdown examples
+    text: |
+      Here's our demo text showcasing the power of markdown and KaTeX integration!
+      Markdown allows you to easily format text using simple syntax.
+      - **bold**
+      - *italic*
+      - `inline code`.
+
+      You can also create headings of various levels:
+      # Heading Level 1
+      ## Heading Level 2
+      ### Heading Level 3
+      #### Heading Level 4
+      Markdown allows you to create tables like the following:
+      ### Fictitious AI Benchmark Results
+      | Model Name          | Accuracy (%) | Inference Time (ms) |
+      |---------------------|--------------|---------------------|
+      | TransGPT-XT         | 96.3         | $\infty$                 |
+      | GigaBERT Prime      | 94.7         | 9.5                 |
+      | MegaLSTM-Pro        | 92.5         | 10.1                |
+      | UltraTransformer    | 97.1         | 7.8                 |
+      | **QuantumDNN-ALPHA**    | 95.8         | 8.5             |
+
+      Of course, you can also directly write tables in HTML if needed. For more details, refer to the [UIKit Table documentation](https://getuikit.com/docs/table).
+
+      <div class="uk-overflow-auto uk-width-1-1">
+        <table class="uk-table uk-table-small uk-text-small uk-table-divider">
+          <thead>
+            <tr>
+              <th>Model Name</th>
+              <th>Accuracy (%)</th>
+              <th>Inference Time (ms)</th>
+              <th>Memory Usage (MB)</th>
+              <th>Training Time (hours)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>TransGPT-XT<br/>GigaBERT Prime</td>
+              <td>96.3<br/>94.7</td>
+              <td>8.2<br/>9.5</td>
+              <td>1200<br/>1100</td>
+              <td>36<br/>48</td>
+            </tr>
+            <tr>
+              <td>MegaLSTM-Pro<br/>UltraTransformer</td>
+              <td>92.5<br/>97.1</td>
+              <td>10.1<br/>7.8</td>
+              <td>1050<br/>1300</td>
+              <td>56<br/>42</td>
+            </tr>
+            <tr class="uk-active">
+              <td>QuantumDNN-ALPHA</td>
+              <td>95.8</td>
+              <td>8.5</td>
+              <td>1250</td>
+              <td>50</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+  - title: KaTeX examples
+    text: >
+      $\KaTeX$ enables you to write mathematical expressions beautifully within your text (e.g. $\alpha$, $\beta$, $\gamma$ ).
+      $$ax^2 + bx + c = 0$$
+      $$ \int \oint \sum \prod $$
+      $$ \begin{CD} A @>a>> B \\ @VbVV @AAcA \\ C @= D \end{CD} $$
+      [KaTeX supports a wide range of mathematical symbols and equations](https://katex.org/docs/support_table.html), ensuring your technical content is both clear and visually appealing.
+      With markdown for text formatting and KaTeX for mathematical expressions, our template empowers you to communicate complex ideas effectively. Whether you're writing a scientific paper or a technical blog post, harnessing these tools will elevate your content and engage your readers.
+projects: # relevant projects
+  - title: Relevant Project I
+    description: abstract text
+    img: assets/teaser.png
+    journal: "ABCD'23"
+    url: https://denkiwakame.github.io/academic-project-template/
+  - title: Relvant Project II
+    description: abstract text
+    img: assets/teaser.png
+    journal: "EFGR'22"
+    url: https://denkiwakame.github.io/academic-project-template/
