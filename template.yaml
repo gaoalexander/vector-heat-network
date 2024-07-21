@@ -15,21 +15,29 @@ image: https://denkiwakame.github.io/academic-project-template/assets/teaser.png
 url: https://denkiwakame.github.io/academic-project-template
 speakerdeck: # speakerdeck slide ID
 authors:
-  - name: Wakame Denki*
+  - name: Alexander Gao
     affiliation: [1, 2]
-    url: http://denkiwakame.github.io/
+    url: http://gaoalexander.github.io/
     position: intern
-  - name: Jane Doe
+  - name: Maurice Chu
     affiliation: [1]
     position: Researcher
     url: https://thispersondoesnotexist.com/
-  - name: John Smith
+  - name: Mubbasir Kapadia
+    affiliation: [1]
+    position: Researcher
+    url: https://thispersondoesnotexist.com/
+  - name: Ming C. Lin
+    affiliation: [2]
+    position: Researcher
+    url: https://thispersondoesnotexist.com/
+  - name: Hsueh-Ti Derek Liu
     affiliation: [1]
     position: Researcher
     url: https://thispersondoesnotexist.com/
 affiliations:
-  - Pixel Genius Labs
-  - NeuroNauts Academy
+  - Roblox
+  - University of Maryland, College Park
 meta:
   - '*work done while she was interning at Pixel Genius Lab.'
 bibtex: >
