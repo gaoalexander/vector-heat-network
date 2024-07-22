@@ -4,7 +4,7 @@ twitter: '@deedzgao'
 title: 'An Intrinsic Vector Heat Network'
 journal: "ICML 2024"
 resources:
-  paper: https://arxiv.org/pdf/2406.09648v1/
+  paper: https://arxiv.org/pdf/2406.09648v1
   arxiv: https://arxiv.org/abs/2406.09648v1/
   code: https://github.com/gaoalexander/vector-diffusion-net/
   video: https://www.youtube.com/embed/onbnb_D1wC8?si=xJczUv716Lt5aO4l&amp;start=1150/
