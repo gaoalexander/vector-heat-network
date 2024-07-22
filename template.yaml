@@ -1,15 +1,14 @@
 theme: default # default || dark
 organization: Roblox, University of Maryland
-twitter: '@denkivvakame'
+twitter: '@deedzgao'
 title: 'An Intrinsic Vector Heat Network'
-journal: "AAAA'24"
+journal: "ICML 2024"
 resources:
   paper: https://openreview.net/
-  arxiv: https://arxiv.org/abs/2406.09648v1
+  arxiv: hhttps://arxiv.org/pdf/2406.09648v1
   code: https://github.com/gaoalexander/vector-diffusion-net
   video: https://www.youtube.com/embed/onbnb_D1wC8?si=xJczUv716Lt5aO4l&amp;start=1150
-  huggingface: https://huggingface.co/
-description: academic projectpage template that supports markdown and KaTeX
+description: project page for an-intrinsic-vector-heat-network
 
 image: https://denkiwakame.github.io/academic-project-template/assets/teaser.png
 url: https://denkiwakame.github.io/academic-project-template
