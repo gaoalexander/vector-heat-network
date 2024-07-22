@@ -45,7 +45,7 @@ bibtex: >
     title     = {An Intrinsic Vector Heat Network},
     journal   = {International Conference on Machine Learning (ICML)},
     year      = {2024},
-    keywords  = {Differential Geometry, Geometric Deep Learning, Graph Neural Networks},
+    keywords  = {Differential Geometry, Geometric Deep Learning, Graph Neural Networks, Vector Fields},
     url       = {https://arxiv.org/abs/2406.09648v1},
   }
 
