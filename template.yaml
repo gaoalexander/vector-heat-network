@@ -14,18 +14,26 @@ image: https://gaoalexander.github.io/vector-heat-network/assets/different_tange
 url: https://gaoalexander.github.io/vector-heat-network
 speakerdeck: # speakerdeck slide ID
 authors:
-  - name: Alexander Gao*
+  - name: Alexander Gao
     affiliation: [1, 2]
-    url: http://denkiwakame.github.io/
+    url: http://gaoalexander.github.io/
     position: intern
-  - name: Jane Doe
+  - name: Maurice Chu
     affiliation: [1]
     position: Researcher
-    url: https://thispersondoesnotexist.com/
-  - name: John Smith
+    url: https://www.linkedin.com/in/maurice-chu-1ab3731a/
+  - name: Mubbasir Kapadia
     affiliation: [1]
     position: Researcher
-    url: https://thispersondoesnotexist.com/
+    url: https://www.cs.rutgers.edu/people/professors/details/mubbasir-kapadia
+  - name: Ming C. Lin
+    affiliation: [1]
+    position: Researcher
+    url: https://www.cs.umd.edu/~lin/
+  - name: Hsueh-Ti Derek Liu
+    affiliation: [1]
+    position: Researcher
+    url: https://www.dgp.toronto.edu/~hsuehtil/
 affiliations:
   - Roblox
   - University of Maryland, College Park
