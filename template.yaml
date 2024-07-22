@@ -1,6 +1,6 @@
 theme: default # default || dark
-organization: Pixel Genius Labs
-twitter: '@denkivvakame'
+organization: Roblox
+twitter: '@deedzgao'
 title: 'An Intrinsic Vector Heat Network'
 journal: "ICML 2024"
 resources:
@@ -9,10 +9,10 @@ resources:
   code (coming soon): https://gaoalexander.github.io/vector-heat-network
 #  video: https://www.youtube.com/embed/onbnb_D1wC8?si=xJczUv716Lt5aO4l&amp;start=1150
 #  huggingface: https://huggingface.co/
-description: academic projectpage template that supports markdown and KaTeX
+description: project page for the ICML 2024 publication, "An Intrinsic Vector Heat Network"
 
-image: https://denkiwakame.github.io/academic-project-template/assets/teaser.png
-url: https://denkiwakame.github.io/academic-project-template
+image: https://gaoalexander.github.io/vector-heat-network/assets/
+url: https://gaoalexander.github.io/vector-heat-network
 speakerdeck: # speakerdeck slide ID
 authors:
   - name: Alexander Gao
@@ -38,7 +38,6 @@ authors:
 affiliations:
   - Roblox
   - University of Maryland, College Park
-
 bibtex: >
   @article{doe2024superai,
     author    = {Jane Doe and John Smith},
