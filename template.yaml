@@ -4,11 +4,11 @@ twitter: '@denkivvakame'
 title: 'An Intrinsic Vector Heat Network'
 journal: "ICML 2024"
 resources:
-  paper: https://openreview.net/
-  arxiv: https://arxiv.org
-  code: https://github.com/denkiwakame/academic-project-template
-  video: https://www.youtube.com/embed/onbnb_D1wC8?si=xJczUv716Lt5aO4l&amp;start=1150
-  huggingface: https://huggingface.co/
+  paper: https://arxiv.org/pdf/2406.09648v1
+  arxiv: https://arxiv.org/abs/2406.09648v1
+  code (coming soon): https://gaoalexander.github.io/vector-heat-network
+#  video: https://www.youtube.com/embed/onbnb_D1wC8?si=xJczUv716Lt5aO4l&amp;start=1150
+#  huggingface: https://huggingface.co/
 description: academic projectpage template that supports markdown and KaTeX
 
 image: https://denkiwakame.github.io/academic-project-template/assets/teaser.png
@@ -38,8 +38,7 @@ authors:
 affiliations:
   - Roblox
   - University of Maryland, College Park
-meta:
-  - '*work done while she was interning at Pixel Genius Lab.'
+
 bibtex: >
   @article{doe2024superai,
     author    = {Jane Doe and John Smith},
@@ -58,9 +57,7 @@ bibtex: >
 
 teaser: teaser.png
 abstract: |
-  This is a versatile template designed to satisfy your research project page needs, all while harnessing the power of **UIKit** and **React**. Built on the foundations of simplicity and flexibility, this template allows you to focus on expressing your ideas without the hassle of directly handling CSS—thanks to customizable SASS variables.
-  With markdown as your canvas and $\KaTeX$ for precise equations, crafting clear and engaging project page becomes effortless. Whether you're unraveling complex theories or presenting your findings, this template aims to support your scholarly endeavors with grace and ease.
-  *Need to edit HTML directly?* Fear not! In addition to markdown, you can also directly write HTML with ease. Feel empowered to craft your content exactly as you envision it, whether through markdown's simplicity or the precision of HTML.
+  Vector fields are widely used to represent and model flows for many science and engineering applications. This paper introduces a novel neural network architecture for learning tangent vector fields that are intrinsically defined on manifold surfaces embedded in 3D. Previous approaches to learning vector fields on surfaces treat vectors as multi-dimensional scalar fields, using traditional scalar-valued architectures to process channels individually, thus fail to preserve fundamental intrinsic properties of the vector field. The core idea of this work is to introduce a trainable vector heat diffusion module to spatially propagate vector-valued feature data across the surface, which we incorporate into our proposed architecture that consists of vector-valued neurons. Our architecture is invariant to rigid motion of the input, isometric deformation, and choice of local tangent bases, and is robust to discretizations of the surface. We evaluate our Vector Heat Network on triangle meshes, and empirically validate its invariant properties. We also demonstrate the effectiveness of our method on the useful industrial application of quadrilateral mesh generation.
 
 body:
   - title: Media examples
