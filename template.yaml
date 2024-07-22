@@ -40,19 +40,13 @@ affiliations:
 meta:
   - ' '
 bibtex: >
-  @article{doe2024superai,
-    author    = {Jane Doe and John Smith},
-    title     = {Unleashing the Power of Super AI: Transforming the Future of Technology},
-    journal   = {Journal of Superintelligent Systems},
+  @article{gao2024vectorheatnet,
+    author    = {Alexander Gao and Maurice Chu and Mubbsir Kapadia and Ming C. Lin and Hsueh-Ti Derek Liu},
+    title     = {An Intrinsic Vector Heat Network},
+    journal   = {International Conference on Machine Learning (ICML)},
     year      = {2024},
-    volume    = {99},
-    number    = {1},
-    pages     = {1-42},
-    month     = {January},
-    keywords  = {Super AI, Machine Learning, Artificial Intelligence, Technological Innovation},
-    doi       = {10.9999/jsis.2024.001},
-    url       = {https://www.example.com/superai-article},
-    note      = {This paper sets the benchmark for future AI research and applications.}
+    keywords  = {Differential Geometry, Geometric Deep Learning, Graph Neural Networks},
+    url       = {https://arxiv.org/abs/2406.09648v1},
   }
 
 teaser: teaser.png
