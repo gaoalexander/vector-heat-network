@@ -53,123 +53,123 @@ teaser: teaser_v2.png
 abstract: |
     Vector fields are widely used to represent and model flows for many science and engineering applications.  This paper introduces a novel neural network architecture for learning tangent vector fields that are intrinsically defined on manifold surfaces embedded in 3D.  Previous approaches to learning vector fields on surfaces treat vectors as multi-dimensional scalar fields, using traditional scalar-valued architectures to process channels individually, thus fail to preserve fundamental intrinsic properties of the vector field.  The core idea of this work is to introduce a trainable vector heat diffusion module to spatially propagate vector-valued feature data across the surface, which we incorporate into our proposed architecture that consists of vector-valued neurons.  Our architecture is invariant to rigid motion of the input, isometric deformation, and choice of local tangent bases, and is robust to discretizations of the surface.  We evaluate our Vector Heat Network on triangle meshes, and empirically validate its invariant properties.  We also demonstrate the effectiveness of our method on the useful industrial application of quadrilateral mesh generation.
 
-#body:
-#  - title: Media examples
-#    text: |
-#      You can access media files in `src/media/` using `assets/` paths
-#
-#      <div class="uk-position-relative" uk-slideshow="animation: fade">
-#        <div class="uk-slideshow-items">
-#          <div>
-#            <img src="assets/001.jpg" alt="" uk-cover>
-#          </div>
-#          <div>
-#            <img src="assets/002.jpg" alt="" uk-cover>
-#          </div>
-#          <div>
-#            <img src="assets/003.jpg" alt="" uk-cover>
-#          </div>
-#        </div>
-#        <div class="uk-position-bottom-center uk-position-small">
-#          <ul class="uk-thumbnav">
-#            <li uk-slideshow-item="0"><a href="#"><img src="assets/001.jpg" width="100" height="67" alt=""></a></li>
-#            <li uk-slideshow-item="1"><a href="#"><img src="assets/002.jpg" width="100" height="67" alt=""></a></li>
-#            <li uk-slideshow-item="2"><a href="#"><img src="assets/003.jpg" width="100" height="67" alt=""></a></li>
-#          </ul>
-#        </div>
-#      </div>
+body:
+  - title: Media examples
+    text: |
+      You can access media files in `src/media/` using `assets/` paths
 
-#      Refer to [UIKit Video Components Documentation](https://getuikit.com/docs/video) and [Grid system](https://getuikit.com/docs/grid)
-#      <div class="uk-child-width-1-2@m" uk-grid>
-#        <div>
-#          <video
-#            src="https://yootheme.com/site/images/media/yootheme-pro.mp4"
-#            loop
-#            muted
-#            uk-video="autoplay:inview"
-#            />
-#        </div>
-#        <div>
-#          <video
-#            src="https://yootheme.com/site/images/media/yootheme-pro.mp4"
-#            loop
-#            muted
-#            uk-video="autoplay:inview"
-#            />
-#        </div>
-#      </div>
-#  - title: Markdown examples
-#    text: |
-#      Here's our demo text showcasing the power of markdown and KaTeX integration!
-#      Markdown allows you to easily format text using simple syntax.
-#      - **bold**
-#      - *italic*
-#      - `inline code`.
-#
-#      You can also create headings of various levels:
-#      # Heading Level 1
-#      ## Heading Level 2
-#      ### Heading Level 3
-#      #### Heading Level 4
-#      Markdown allows you to create tables like the following:
-#      ### Fictitious AI Benchmark Results
-#      | Model Name          | Accuracy (%) | Inference Time (ms) |
-#      |---------------------|--------------|---------------------|
-#      | TransGPT-XT         | 96.3         | $\infty$                 |
-#      | GigaBERT Prime      | 94.7         | 9.5                 |
-#      | MegaLSTM-Pro        | 92.5         | 10.1                |
-#      | UltraTransformer    | 97.1         | 7.8                 |
-#      | **QuantumDNN-ALPHA**    | 95.8         | 8.5             |
-#
-#      Of course, you can also directly write tables in HTML if needed. For more details, refer to the [UIKit Table documentation](https://getuikit.com/docs/table).
-#
-#      <div class="uk-overflow-auto uk-width-1-1">
-#        <table class="uk-table uk-table-small uk-text-small uk-table-divider">
-#          <thead>
-#            <tr>
-#              <th>Model Name</th>
-#              <th>Accuracy (%)</th>
-#              <th>Inference Time (ms)</th>
-#              <th>Memory Usage (MB)</th>
-#              <th>Training Time (hours)</th>
-#            </tr>
-#          </thead>
-#          <tbody>
-#            <tr>
-#              <td>TransGPT-XT<br/>GigaBERT Prime</td>
-#              <td>96.3<br/>94.7</td>
-#              <td>8.2<br/>9.5</td>
-#              <td>1200<br/>1100</td>
-#              <td>36<br/>48</td>
-#            </tr>
-#            <tr>
-#              <td>MegaLSTM-Pro<br/>UltraTransformer</td>
-#              <td>92.5<br/>97.1</td>
-#              <td>10.1<br/>7.8</td>
-#              <td>1050<br/>1300</td>
-#              <td>56<br/>42</td>
-#            </tr>
-#            <tr class="uk-active">
-#              <td>QuantumDNN-ALPHA</td>
-#              <td>95.8</td>
-#              <td>8.5</td>
-#              <td>1250</td>
-#              <td>50</td>
-#            </tr>
-#          </tbody>
-#        </table>
-#      </div>
-#  - title: KaTeX examples
-#    text: >
-#      $\KaTeX$ enables you to write mathematical expressions beautifully within your text (e.g. $\alpha$, $\beta$, $\gamma$ ).
-#      $$ax^2 + bx + c = 0$$
-#      $$ \int \oint \sum \prod $$
-#      $$ \begin{CD} A @>a>> B \\ @VbVV @AAcA \\ C @= D \end{CD} $$
-#      [KaTeX supports a wide range of mathematical symbols and equations](https://katex.org/docs/support_table.html), ensuring your technical content is both clear and visually appealing.
-#      With markdown for text formatting and KaTeX for mathematical expressions, our template empowers you to communicate complex ideas effectively. Whether you're writing a scientific paper or a technical blog post, harnessing these tools will elevate your content and engage your readers.
-#projects: # relevant projects
-#  - title: DiffusionNet
-#    description: abstract text
-#    img: assets/teaser_v2.png
-#    journal: "ABCD'23"
-#    url: https://github.com/nmwsharp/diffusion-net
+      <div class="uk-position-relative" uk-slideshow="animation: fade">
+        <div class="uk-slideshow-items">
+          <div>
+            <img src="assets/001.jpg" alt="" uk-cover>
+          </div>
+          <div>
+            <img src="assets/002.jpg" alt="" uk-cover>
+          </div>
+          <div>
+            <img src="assets/003.jpg" alt="" uk-cover>
+          </div>
+        </div>
+        <div class="uk-position-bottom-center uk-position-small">
+          <ul class="uk-thumbnav">
+            <li uk-slideshow-item="0"><a href="#"><img src="assets/001.jpg" width="100" height="67" alt=""></a></li>
+            <li uk-slideshow-item="1"><a href="#"><img src="assets/002.jpg" width="100" height="67" alt=""></a></li>
+            <li uk-slideshow-item="2"><a href="#"><img src="assets/003.jpg" width="100" height="67" alt=""></a></li>
+          </ul>
+        </div>
+      </div>
+
+      Refer to [UIKit Video Components Documentation](https://getuikit.com/docs/video) and [Grid system](https://getuikit.com/docs/grid)
+      <div class="uk-child-width-1-2@m" uk-grid>
+        <div>
+          <video
+            src="https://yootheme.com/site/images/media/yootheme-pro.mp4"
+            loop
+            muted
+            uk-video="autoplay:inview"
+            />
+        </div>
+        <div>
+          <video
+            src="https://yootheme.com/site/images/media/yootheme-pro.mp4"
+            loop
+            muted
+            uk-video="autoplay:inview"
+            />
+        </div>
+      </div>
+  - title: Markdown examples
+    text: |
+      Here's our demo text showcasing the power of markdown and KaTeX integration!
+      Markdown allows you to easily format text using simple syntax.
+      - **bold**
+      - *italic*
+      - `inline code`.
+
+      You can also create headings of various levels:
+      # Heading Level 1
+      ## Heading Level 2
+      ### Heading Level 3
+      #### Heading Level 4
+      Markdown allows you to create tables like the following:
+      ### Fictitious AI Benchmark Results
+      | Model Name          | Accuracy (%) | Inference Time (ms) |
+      |---------------------|--------------|---------------------|
+      | TransGPT-XT         | 96.3         | $\infty$                 |
+      | GigaBERT Prime      | 94.7         | 9.5                 |
+      | MegaLSTM-Pro        | 92.5         | 10.1                |
+      | UltraTransformer    | 97.1         | 7.8                 |
+      | **QuantumDNN-ALPHA**    | 95.8         | 8.5             |
+
+      Of course, you can also directly write tables in HTML if needed. For more details, refer to the [UIKit Table documentation](https://getuikit.com/docs/table).
+
+      <div class="uk-overflow-auto uk-width-1-1">
+        <table class="uk-table uk-table-small uk-text-small uk-table-divider">
+          <thead>
+            <tr>
+              <th>Model Name</th>
+              <th>Accuracy (%)</th>
+              <th>Inference Time (ms)</th>
+              <th>Memory Usage (MB)</th>
+              <th>Training Time (hours)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>TransGPT-XT<br/>GigaBERT Prime</td>
+              <td>96.3<br/>94.7</td>
+              <td>8.2<br/>9.5</td>
+              <td>1200<br/>1100</td>
+              <td>36<br/>48</td>
+            </tr>
+            <tr>
+              <td>MegaLSTM-Pro<br/>UltraTransformer</td>
+              <td>92.5<br/>97.1</td>
+              <td>10.1<br/>7.8</td>
+              <td>1050<br/>1300</td>
+              <td>56<br/>42</td>
+            </tr>
+            <tr class="uk-active">
+              <td>QuantumDNN-ALPHA</td>
+              <td>95.8</td>
+              <td>8.5</td>
+              <td>1250</td>
+              <td>50</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+  - title: KaTeX examples
+    text: >
+      $\KaTeX$ enables you to write mathematical expressions beautifully within your text (e.g. $\alpha$, $\beta$, $\gamma$ ).
+      $$ax^2 + bx + c = 0$$
+      $$ \int \oint \sum \prod $$
+      $$ \begin{CD} A @>a>> B \\ @VbVV @AAcA \\ C @= D \end{CD} $$
+      [KaTeX supports a wide range of mathematical symbols and equations](https://katex.org/docs/support_table.html), ensuring your technical content is both clear and visually appealing.
+      With markdown for text formatting and KaTeX for mathematical expressions, our template empowers you to communicate complex ideas effectively. Whether you're writing a scientific paper or a technical blog post, harnessing these tools will elevate your content and engage your readers.
+projects: # relevant projects
+  - title: DiffusionNet
+    description: abstract text
+    img: assets/teaser_v2.png
+    journal: "ABCD'23"
+    url: https://github.com/nmwsharp/diffusion-net
