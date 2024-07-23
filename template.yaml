@@ -53,31 +53,31 @@ teaser: teaser_v2.png
 abstract: |
     Vector fields are widely used to represent and model flows for many science and engineering applications.  This paper introduces a novel neural network architecture for learning tangent vector fields that are intrinsically defined on manifold surfaces embedded in 3D.  Previous approaches to learning vector fields on surfaces treat vectors as multi-dimensional scalar fields, using traditional scalar-valued architectures to process channels individually, thus fail to preserve fundamental intrinsic properties of the vector field.  The core idea of this work is to introduce a trainable vector heat diffusion module to spatially propagate vector-valued feature data across the surface, which we incorporate into our proposed architecture that consists of vector-valued neurons.  Our architecture is invariant to rigid motion of the input, isometric deformation, and choice of local tangent bases, and is robust to discretizations of the surface.  We evaluate our Vector Heat Network on triangle meshes, and empirically validate its invariant properties.  We also demonstrate the effectiveness of our method on the useful industrial application of quadrilateral mesh generation.
 
-body:
-  - title: Media examples
-    text: |
-      You can access media files in `src/media/` using `assets/` paths
-
-      <div class="uk-position-relative" uk-slideshow="animation: fade">
-        <div class="uk-slideshow-items">
-          <div>
-            <img src="assets/001.jpg" alt="" uk-cover>
-          </div>
-          <div>
-            <img src="assets/002.jpg" alt="" uk-cover>
-          </div>
-          <div>
-            <img src="assets/003.jpg" alt="" uk-cover>
-          </div>
-        </div>
-        <div class="uk-position-bottom-center uk-position-small">
-          <ul class="uk-thumbnav">
-            <li uk-slideshow-item="0"><a href="#"><img src="assets/001.jpg" width="100" height="67" alt=""></a></li>
-            <li uk-slideshow-item="1"><a href="#"><img src="assets/002.jpg" width="100" height="67" alt=""></a></li>
-            <li uk-slideshow-item="2"><a href="#"><img src="assets/003.jpg" width="100" height="67" alt=""></a></li>
-          </ul>
-        </div>
-      </div>
+#body:
+#  - title: Media examples
+#    text: |
+#      You can access media files in `src/media/` using `assets/` paths
+#
+#      <div class="uk-position-relative" uk-slideshow="animation: fade">
+#        <div class="uk-slideshow-items">
+#          <div>
+#            <img src="assets/001.jpg" alt="" uk-cover>
+#          </div>
+#          <div>
+#            <img src="assets/002.jpg" alt="" uk-cover>
+#          </div>
+#          <div>
+#            <img src="assets/003.jpg" alt="" uk-cover>
+#          </div>
+#        </div>
+#        <div class="uk-position-bottom-center uk-position-small">
+#          <ul class="uk-thumbnav">
+#            <li uk-slideshow-item="0"><a href="#"><img src="assets/001.jpg" width="100" height="67" alt=""></a></li>
+#            <li uk-slideshow-item="1"><a href="#"><img src="assets/002.jpg" width="100" height="67" alt=""></a></li>
+#            <li uk-slideshow-item="2"><a href="#"><img src="assets/003.jpg" width="100" height="67" alt=""></a></li>
+#          </ul>
+#        </div>
+#      </div>
 
 #      Refer to [UIKit Video Components Documentation](https://getuikit.com/docs/video) and [Grid system](https://getuikit.com/docs/grid)
 #      <div class="uk-child-width-1-2@m" uk-grid>
