@@ -98,7 +98,7 @@ body:
             />
         </div>
       </div>
-  - title: Applicatino: Quadrilateral Meshing
+  - title: Quadrilateral Meshing Application
     text: |
       Here's our demo text showcasing the power of markdown and KaTeX integration!
       Markdown allows you to easily format text using simple syntax.
