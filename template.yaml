@@ -56,10 +56,12 @@ abstract: |
 body:
   - title: Invariances
     text: |
-      You can access media files in `src/media/` using `assets/` paths
-      <div>
-        <img src="assets/isometry.png" alt="" uk-cover width="100">
-      </div>
+    You can access media files in `src/media/` using `assets/` paths
+        <div class="uk-child-width-1-1@m" uk-grid>
+          <div>
+            <img src="assets/isometry.png" alt="" uk-cover width="100">
+          </div>
+        </div>
       <div class="uk-position-relative" uk-slideshow="animation: fade">
         <div class="uk-slideshow-items">
           <div>
