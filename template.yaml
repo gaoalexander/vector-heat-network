@@ -58,7 +58,7 @@ body:
     text: |
       You can access media files in `src/media/` using `assets/` paths
       <div>
-        <img src="assets/isometry.png" alt="" uk-cover>
+        <img src="assets/isometry.png" alt="" uk-cover width="100">
       </div>
       <div class="uk-position-relative" uk-slideshow="animation: fade">
         <div class="uk-slideshow-items">
