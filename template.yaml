@@ -57,6 +57,15 @@ body:
   - title: Invariances
     text: |
       You can access media files in `src/media/` using `assets/` paths
+      <div class="uk-child-width-1-2@m" uk-grid>
+        <div>
+          <img src="assets/isometry.png">
+        </div>
+        <div>
+          <img src="assets/invariance_local_basis.png">
+        </div>
+      </div>
+
       <div class="uk-position-relative" uk-slideshow="animation: fade">
         <div class="uk-slideshow-items">
           <div>
