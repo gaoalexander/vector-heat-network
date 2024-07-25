@@ -57,7 +57,9 @@ body:
   - title: Invariances
     text: |
       You can access media files in `src/media/` using `assets/` paths
-
+      <div>
+        <img src="assets/isometry.png" alt="" uk-cover>
+      </div>
       <div class="uk-position-relative" uk-slideshow="animation: fade">
         <div class="uk-slideshow-items">
           <div>
