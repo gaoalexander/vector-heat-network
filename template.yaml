@@ -57,7 +57,7 @@ body:
   - title: Invariances
     text: |
       You can access media files in `src/media/` using `assets/` paths
-      <div class="uk-child-width-1-2@m" uk-grid>
+      <div class="uk-child-width-1-1@m" uk-grid>
         <div>
           <img src="assets/isometry.png">
         </div>
