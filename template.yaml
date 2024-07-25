@@ -61,6 +61,9 @@ body:
         <div>
           <img src="assets/isometry.png">
         </div>
+      </div>
+
+      <div class="uk-child-width-1-1@m" uk-grid>
         <div>
           <img src="assets/invariance_local_basis.png">
         </div>
