@@ -58,10 +58,6 @@ body:
     text: |
       You can access media files in `src/media/` using `assets/` paths
       <div class="uk-child-width-1-1@m" uk-grid>
-        <div>
-          <img src="assets/isometry.png">
-        </div>
-      </div>
 
       <div class="uk-child-width-1-1@m" uk-grid>
         <div>
@@ -69,6 +65,16 @@ body:
         </div>
       </div>
 
+      <div>
+          <img src="assets/invariance_rigid_motion.png">
+        </div>
+      </div>
+
+      <div>
+          <img src="assets/isometry.png">
+        </div>
+      </div>
+      
       <div class="uk-position-relative" uk-slideshow="animation: fade">
         <div class="uk-slideshow-items">
           <div>
