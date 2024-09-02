@@ -65,7 +65,7 @@ body:
 
   - title: Invariances
     text: |
-      You can access media files in `src/media/` using `assets/` paths
+      Our architecture possesses several fundamental invariances, which we highlight and empirically validate here, distinguishing it from the scalar-valued approach of (Dielen et al., 2021). These invariances arise from the fact that all of our operations (gradient, heat diffusion, and the per-vertex linear layer) are intrinsic, which implies that our architecture is invariant to how the mesh sits in the space.
       <div class="uk-child-width-1-1@m" uk-grid>
 
       <div class="uk-child-width-1-1@m" uk-grid>
@@ -145,11 +145,8 @@ body:
           </tbody>
         </table>
       </div>
-  - title: KaTeX examples
-    text: >
-      $\KaTeX$ enables you to write mathematical expressions beautifully within your text (e.g. $\alpha$, $\beta$, $\gamma$ ).
-      $$ax^2 + bx + c = 0$$
-      $$ \int \oint \sum \prod $$
-      $$ \begin{CD} A @>a>> B \\ @VbVV @AAcA \\ C @= D \end{CD} $$
-      [KaTeX supports a wide range of mathematical symbols and equations](https://katex.org/docs/support_table.html), ensuring your technical content is both clear and visually appealing.
-      With markdown for text formatting and KaTeX for mathematical expressions, our template empowers you to communicate complex ideas effectively. Whether you're writing a scientific paper or a technical blog post, harnessing these tools will elevate your content and engage your readers.
+projects: # relevant projects
+  - title: Learning Direction Fields for Quad Mesh Generation
+    description: Alexander Dielen, Isaak Lim, Max Lyon, Leif Kobbelt
+    journal: "Eurographics Symposium on Geometry Processing 2021"
+    url: https://www.graphics.rwth-aachen.de/publication/03337/
