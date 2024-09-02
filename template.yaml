@@ -6,8 +6,7 @@ journal: "ICML 2024"
 resources:
   paper: https://arxiv.org/pdf/2406.09648v1
   arxiv: https://arxiv.org/abs/2406.09648v1/
-  code: https://github.com/gaoalexander/vector-diffusion-net/
-  video: https://www.youtube.com/embed/onbnb_D1wC8?si=xJczUv716Lt5aO4l&amp;start=1150/
+  code: https://github.com/gaoalexander/vector-heat-net/
 description: project page for an-intrinsic-vector-heat-network
 
 image: https://gaoalexander.github.io/vector-heat-network/assets/teaser_v2.png
