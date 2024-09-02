@@ -87,20 +87,11 @@ body:
   - title: Quadrilateral Meshing Application
     text: |
       
-      <div>
-          <img src="assets/field_guided_meshing.png">
-        </div>
-      </div>
-  
       To demonstrate our method’s effectiveness, we evaluate it on the task of quadrilateral remeshing. Given a triangle mesh M, we use the per-channel gradient of the first $c_in = 15$ channels of the Heat Kernel Signature (HKS) as input features to our network, giving $c_in$ vector-valued features per vertex. The output is a 4-Rosy cross field defined on each vertex. We then interpolate the per-vertex cross field onto faces, followed by off-the-shelf algorithms by [Bommes et al., 2009] and [Ebke et al., 2013] to turn the per-face cross field into a quadrilateral mesh.
+      
 
-      ## Results
-      <div>
-          <img src="assets/quad_meshing_results_1.png">
-        </div>
-      </div>
-  
-      <div>
-          <img src="assets/quad_meshing_results_2.png">
-        </div>
-      </div>
+projects: # relevant projects
+  - title: Learning Direction Fields for Quad Mesh Generation
+    description: Alexander Dielen, Isaak Lim, Max Lyon, Leif Kobbelt
+    journal: "Eurographics Symposium on Geometry Processing 2021"
+    url: https://www.graphics.rwth-aachen.de/publication/03337/
